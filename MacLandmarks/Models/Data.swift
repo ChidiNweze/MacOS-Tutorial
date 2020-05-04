@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Helpers for loading images and data.
-*/
+//
+//  Data.swift
+//  MacLandmarks
+//
+//  Created by Chidinma Umenwofor-Nweze on 2020-05-04.
+//  Copyright © 2020 Chidinma Umenwofor-Nweze. All rights reserved.
+//
 
 import Foundation
 import CoreLocation
@@ -68,4 +69,3 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-

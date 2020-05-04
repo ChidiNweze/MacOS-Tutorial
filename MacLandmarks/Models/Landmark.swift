@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The model for an individual landmark.
-*/
+//
+//  Landmark.swift
+//  MacLandmarks
+//
+//  Created by Chidinma Umenwofor-Nweze on 2020-05-04.
+//  Copyright © 2020 Chidinma Umenwofor-Nweze. All rights reserved.
+//
 
 import SwiftUI
 import CoreLocation
@@ -53,3 +54,4 @@ struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
+

@@ -1,9 +1,11 @@
-/*
-See LICENSE folder for this sample’s licensing information.
+//
+//  Profile.swift
+//  MacLandmarks
+//
+//  Created by Chidinma Umenwofor-Nweze on 2020-05-04.
+//  Copyright © 2020 Chidinma Umenwofor-Nweze. All rights reserved.
+//
 
-Abstract:
-An object that models a user profile.
-*/
 import Foundation
 
 struct Profile {
