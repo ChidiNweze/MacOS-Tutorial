@@ -12,6 +12,8 @@
 		2B1FC19E24606F23008C320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FC19D24606F23008C320B /* Assets.xcassets */; };
 		2B1FC1A124606F23008C320B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FC1A024606F23008C320B /* Preview Assets.xcassets */; };
 		2B1FC1A424606F23008C320B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FC1A224606F23008C320B /* Main.storyboard */; };
+		2B1FC1AD246071EE008C320B /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FC1AC246071EE008C320B /* Models */; };
+		2B1FC1AF2460720F008C320B /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FC1AE2460720F008C320B /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		2B1FC1A324606F23008C320B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1FC1A524606F23008C320B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B1FC1A624606F23008C320B /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		2B1FC1AC246071EE008C320B /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		2B1FC1AE2460720F008C320B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				2B1FC19924606F1F008C320B /* AppDelegate.swift */,
 				2B1FC19B24606F1F008C320B /* ContentView.swift */,
+				2B1FC1AC246071EE008C320B /* Models */,
+				2B1FC1AE2460720F008C320B /* Resources */,
 				2B1FC19D24606F23008C320B /* Assets.xcassets */,
 				2B1FC1A224606F23008C320B /* Main.storyboard */,
 				2B1FC1A524606F23008C320B /* Info.plist */,
@@ -134,7 +140,9 @@
 			files = (
 				2B1FC1A424606F23008C320B /* Main.storyboard in Resources */,
 				2B1FC1A124606F23008C320B /* Preview Assets.xcassets in Resources */,
+				2B1FC1AD246071EE008C320B /* Models in Resources */,
 				2B1FC19E24606F23008C320B /* Assets.xcassets in Resources */,
+				2B1FC1AF2460720F008C320B /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
