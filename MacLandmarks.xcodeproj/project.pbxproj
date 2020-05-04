@@ -35,6 +35,7 @@
 		2BD25AA02460911C00EE6185 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BD25A8F2460911C00EE6185 /* charleyrivers.jpg */; };
 		2BD25AA12460911C00EE6185 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BD25A902460911C00EE6185 /* hikeData.json */; };
 		2BD25AA22460911C00EE6185 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BD25A912460911C00EE6185 /* chincoteague.jpg */; };
+		2BD25AA52460DD4100EE6185 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD25AA42460DD4100EE6185 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		2BD25A8F2460911C00EE6185 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		2BD25A902460911C00EE6185 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		2BD25A912460911C00EE6185 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
+		2BD25AA42460DD4100EE6185 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2B1FC19924606F1F008C320B /* AppDelegate.swift */,
 				2B1FC19B24606F1F008C320B /* ContentView.swift */,
 				2B1FC1B02460884B008C320B /* LandmarkRow.swift */,
+				2BD25AA42460DD4100EE6185 /* LandmarkList.swift */,
 				2BD25A802460902E00EE6185 /* Models */,
 				2BD25AA32460912700EE6185 /* Resources */,
 				2B1FC19D24606F23008C320B /* Assets.xcassets */,
@@ -251,6 +254,7 @@
 				2B1FC19C24606F1F008C320B /* ContentView.swift in Sources */,
 				2BD25A7F24608FA100EE6185 /* UserData.swift in Sources */,
 				2BD25A7924608EBE00EE6185 /* Data.swift in Sources */,
+				2BD25AA52460DD4100EE6185 /* LandmarkList.swift in Sources */,
 				2BD25A7D24608F6100EE6185 /* Profile.swift in Sources */,
 				2B1FC19A24606F1F008C320B /* AppDelegate.swift in Sources */,
 				2B1FC1B12460884B008C320B /* LandmarkRow.swift in Sources */,
