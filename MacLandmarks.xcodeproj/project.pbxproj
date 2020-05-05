@@ -109,13 +109,13 @@
 		2B1FC19824606F1F008C320B /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
-				2BD25AAA246228CF00EE6185 /* CircleImage.swift */,
 				2B1FC19924606F1F008C320B /* AppDelegate.swift */,
 				2B1FC19B24606F1F008C320B /* ContentView.swift */,
 				2B1FC1B02460884B008C320B /* LandmarkRow.swift */,
 				2BD25AA42460DD4100EE6185 /* LandmarkList.swift */,
 				2BD25AA62460E2CB00EE6185 /* Filter.swift */,
 				2BD25AA82460EBA500EE6185 /* NavigationMaster.swift */,
+				2BD25AAA246228CF00EE6185 /* CircleImage.swift */,
 				2BD25A802460902E00EE6185 /* Models */,
 				2BD25AA32460912700EE6185 /* Resources */,
 				2B1FC19D24606F23008C320B /* Assets.xcassets */,
