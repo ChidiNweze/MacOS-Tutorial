@@ -38,6 +38,7 @@
 		2BD25AA52460DD4100EE6185 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD25AA42460DD4100EE6185 /* LandmarkList.swift */; };
 		2BD25AA72460E2CB00EE6185 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD25AA62460E2CB00EE6185 /* Filter.swift */; };
 		2BD25AA92460EBA500EE6185 /* NavigationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD25AA82460EBA500EE6185 /* NavigationMaster.swift */; };
+		2BD25AAB246228CF00EE6185 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD25AAA246228CF00EE6185 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		2BD25AA42460DD4100EE6185 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		2BD25AA62460E2CB00EE6185 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		2BD25AA82460EBA500EE6185 /* NavigationMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMaster.swift; sourceTree = "<group>"; };
+		2BD25AAA246228CF00EE6185 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		2B1FC19824606F1F008C320B /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				2BD25AAA246228CF00EE6185 /* CircleImage.swift */,
 				2B1FC19924606F1F008C320B /* AppDelegate.swift */,
 				2B1FC19B24606F1F008C320B /* ContentView.swift */,
 				2B1FC1B02460884B008C320B /* LandmarkRow.swift */,
@@ -261,6 +264,7 @@
 				2B1FC19C24606F1F008C320B /* ContentView.swift in Sources */,
 				2BD25A7F24608FA100EE6185 /* UserData.swift in Sources */,
 				2BD25A7924608EBE00EE6185 /* Data.swift in Sources */,
+				2BD25AAB246228CF00EE6185 /* CircleImage.swift in Sources */,
 				2BD25AA52460DD4100EE6185 /* LandmarkList.swift in Sources */,
 				2BD25A7D24608F6100EE6185 /* Profile.swift in Sources */,
 				2B1FC19A24606F1F008C320B /* AppDelegate.swift in Sources */,
