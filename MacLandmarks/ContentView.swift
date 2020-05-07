@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedLandmark: Landmark?
+    
     var body: some View {
         Text("Hello, World!")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -19,5 +21,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(UserData())
     }
 }
