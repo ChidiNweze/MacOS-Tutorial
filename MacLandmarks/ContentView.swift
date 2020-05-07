@@ -12,8 +12,14 @@ struct ContentView: View {
     @State private var selectedLandmark: Landmark?
     
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        NavigationView {
+             NavigationMaster(selectedLandmark: $selectedLandmark)
+            
+            if selectedLandmark != nil {
+                NavigationDetail(landmark: selectedLandmark!)
+            }
+        }
+        .frame(minWidth: 700, minHeight: 300)
     }
 }
 
